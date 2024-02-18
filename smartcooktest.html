@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylestest.css">
+    <script src="websitetest.js"></script>
+    <title>Smartook</title>
+  </head>
+  <body>
+    <main>
+      <div class="top"><h1 class="title">SmartCook</h1>
+      <button class="login">login</button></div>
+      <div class="nav">
+        <button id="filter-category1" onclick="difficulty()">difficulty</button>
+          <ul class="difficulty" id="difficulty">
+            <li><input type="checkbox" id="easy" value="option1"><label for="easy">easy</label></input></li>
+            <li><input type="checkbox" id="medium" value="option2"><label for="medium">medium</label></input></li>
+            <li><input type="checkbox" id="hard" value="option3"><label for="hard">hard</label></input></li>
+          </ul>
+
+        <button id="filter-category2" onclick="alergens()">alergens</button>
+          <ul class="alergens" id="alergens">
+            <li><input type="checkbox" id="vegetarian" value="option1"><label for="vegetarian">vegetarian</label></input></li>
+            <li><input type="checkbox" id="vegan" value="option2"><label for="vegan">vegan</label></input></li>
+            <li><input type="checkbox" id="nuts" value="option3"><label for="nuts">nuts</label></input></li>
+            <li><input type="checkbox" id="gluten" value="option4"><label for="gluten">gluten</label></input></li>
+            <li><input type="checkbox" id="lactose" value="option5"><label for="lactose">lactose</label></input></li>
+            <li><input type="checkbox" id="spicy" value="option6"><label for="spicy">spicy</label></input></li>
+            <li><input type="checkbox" id="alcohol" value="option7"><label for="alcohol">alcohol</label></input></li>
+            <li><input type="checkbox" id="sea_food" value="option8"><label for="sea_food">sea food</label></input></li>
+            <li><input type="checkbox" id="mushrooms" value="option9"><label for="mushrooms">mushrooms</label></input></li>
+          </ul>
+
+        <button id="filter-category3" onclick="typ()">type</button>
+          <ul class="type" id="type">
+            <li><input type="checkbox" id="breakfast" value="option1"><label for="breakfast">breakfast</label></input></li>
+            <li><input type="checkbox" id="soup1" value="option2"><label for="soup">soup</label></input></li>
+            <li><input type="checkbox" id="main_course" value="option3"><label for="main_course">main course</label></input></li>
+            <li><input type="checkbox" id="dessert1" value="option4"><label for="dessert">dessert</label></input></li>
+            <li><input type="checkbox" id="dinner" value="option5"><label for="dinner">dinner</label></input></li>
+          </ul>
+
+        <button id="filter-category4" onclick="category()">category</button>
+          <ul class="category" id="category">
+            <li><input type="checkbox" id="soup2" value="option1"><label for="soup">soup</label></input></li>
+            <li><input type="checkbox" id="meat" value="option2"><label for="meat">meat</label></input></li>
+            <li><input type="checkbox" id="meat_free" value="option3"><label for="meat_free">meat free</label></input></li>
+            <li><input type="checkbox" id="dessert2" value="option4"><label for="dessert">dessert</label></input></li>
+            <li><input type="checkbox" id="sauce" value="option5"><label for="sauce">sauce</label></input></li>
+            <li><input type="checkbox" id="pasta" value="option6"><label for="pasta">pasta</label></input></li>
+            <li><input type="checkbox" id="salad" value="option7"><label for="salad">salad</label></input></li>
+            <li><input type="checkbox" id="sweet_food" value="option8"><label for="sweet_food">sweet food</label></input></li>
+            <li><input type="checkbox" id="drink" value="option9"><label for="drink">drink</label></input></li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid" id="item">
+        <div class="item" data-category1="option1" data-category2="option7" data-category3="option1" data-category4="option5">
+          <h2>easy alcohol with breakfast and sauce</h2>
+          <p>Lorem ipsum</p>
+        </div>
+        <div class="item" data-category2="vegan">
+          <h2>jidlo</h2>
+          <p>Lorem ipsum</p>
+        </div>
+        <div>
+          <h2>jidlo</h2>
+          <p>Lorem ipsum</p>
+        </div>
+        <div>
+          <h2>jidlo</h2>
+          <p>Lorem ipsum</p>
+        </div>
+        <div>
+          <h2>jidlo</h2>
+          <p>Lorem ipsum</p>
+        </div>
+        <div>
+          <h2>jidlo</h2>
+          <p>Lorem ipsum</p>
+        </div>
+        <div>
+          <h2>jidlo</h2>
+          <p>Lorem ipsum</p>
+        </div>
+        <div>
+          <h2>jidlo</h2>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

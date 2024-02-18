@@ -1,0 +1,65 @@
+{
+    "name": "Scrambled Tofu Breakfast",
+    "difficulty": 1,
+    "duration": "15",
+    "price": 2,
+    "description": "In a pan, heat 14 g of olive oil. Add finely chopped red onion and pan-fry until translucent. Crumble 200g of firm tofu into the pan. Add 14 g of ground turmeric and Stir. Add 100g of chopped fresh spinach and diced ripe tomato. Season with 7 g of salt and 3.5 g of black pepper. Cook for 5-7 minutes until everything is heated through. Serve hot and add more or less spices so it is up to your taste.",
+    "country": "PH",
+    "dish_category": [1],
+    "recipe_category": [3],
+    "tolerance": [1, 2],
+    "ingredient": [
+        {
+        "id": "tofu",
+        "quantity": 200,
+        "unit": "g",
+        "necessary": 1,
+        "comment": "Firm tofu, crumbled as a substitute for scrambled eggs."
+      },
+      {
+        "id": "spinach",
+        "quantity": 100,
+        "unit": "g",
+        "necessary": 1
+      },
+      {
+        "id": "tomato",
+        "quantity": 1,
+        "unit": "pc",
+        "necessary": 1
+      },
+      {
+        "id": "onion",
+        "quantity": 1,
+        "unit": "pc",
+        "necessary": 1
+      },
+      {
+        "id": "turmeric",
+        "quantity": 14,
+        "unit": "g",
+        "necessary": 0
+      },
+      {
+        "id": "salt",
+        "quantity": 7,
+        "unit": "g",
+        "necessary": 0,
+        "comment": "7 g is regular amount, can be adjusted for prefered taste."
+      },
+      {
+        "id": "pepper",
+        "quantity": 3.5,
+        "unit": "g",
+        "necessary": 0,
+        "comment": "3.4 g is regular amount, can be adjusted for prefered taste."
+      },
+      {
+        "id": "olive_oil",
+        "quantity": 14,
+        "unit": "g",
+        "necessary": 1
+      }
+    ],
+    "author": "Václav Chvátal"
+  }
